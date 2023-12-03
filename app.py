@@ -20,9 +20,9 @@ with col2:
 with col1:
     Insulin = st.number_input('Input Nilai Insulin', 0)
 with col2:
-    Bmi = st.number_input('Input Nilai BMI', 0)
+    Bmi = st.number_input('Input Nilai BMI', 00,0)
 with col1:
-    DiabetesPedigreeFunction = st.number_input('Input Nilai Diabetes Pedigree Function', 0)
+    DiabetesPedigreeFunction = st.number_input('Input Nilai Diabetes Pedigree Function', 0,000)
 with col2:
     Age = st.number_input('Input Nilai Age', 0)
 
