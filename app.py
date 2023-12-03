@@ -10,21 +10,21 @@ col1, col2 = st.columns(2)
 
 #membuat form inputan
 with col1:  
-    Pregnancies = st.number_input('Input Nilai Pregnancies')
+    Pregnancies = st.number_input('Input Nilai Pregnancies', 0)
 with col2:
-    Glucose = st.number_input('Input Nilai Glucose')
+    Glucose = st.number_input('Input Nilai Glucose', 0)
 with col1:
-    BloodPressure = st.number_input('Input Nilai Blood Pressure')
+    BloodPressure = st.number_input('Input Nilai Blood Pressure', 0)
 with col2:
-    SkinThickness = st.number_input('Input Nilai Skin Thickness')
+    SkinThickness = st.number_input('Input Nilai Skin Thickness', 0)
 with col1:
-    Insulin = st.number_input('Input Nilai Insulin')
+    Insulin = st.number_input('Input Nilai Insulin', 0)
 with col2:
-    Bmi = st.number_input('Input Nilai BMI')
+    Bmi = st.number_input('Input Nilai BMI', 0)
 with col1:
-    DiabetesPedigreeFunction = st.number_input('Input Nilai Diabetes Pedigree Function')
+    DiabetesPedigreeFunction = st.number_input('Input Nilai Diabetes Pedigree Function', 0)
 with col2:
-    Age = st.number_input('Input Nilai Age')
+    Age = st.number_input('Input Nilai Age', 0)
 
 #coding prediksi
 input_data = ''
